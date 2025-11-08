@@ -72,8 +72,9 @@ Método exacto de búsqueda en profundidad con poda:
 ---
 
 ## 🏗️ Estructura del repositorio
-
+´´´bash
 │
 ├── proyecto_final_algoritmos.ipynb # Notebook principal con las implementaciones
 ├── Proyecto Final - Algoritmos Avanzados de Búsqueda y Optimización.pdf # Informe de la primera entrega
 ├── README.md # Este archivo
+´´´
