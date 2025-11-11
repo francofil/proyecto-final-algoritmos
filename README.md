@@ -5,7 +5,7 @@ Desarrollado por **Franco Filardi** y **Joaquín Repetto**.
 
 ---
 
-## 🧩 Descripción del problema
+## Descripción del problema
 
 El problema consiste en **planificar la jornada diaria de un estudiante universitario**, considerando:
 
@@ -22,7 +22,7 @@ Además, se incorpora un **factor de penalización α** para minimizar el tiempo
 
 ---
 
-## ⚙️ Modelado formal
+## Modelado formal
 
 - **Conjunto de actividades:**  
   \( V = \{1, 2, \dots, n\} \)
@@ -53,9 +53,9 @@ Además, se incorpora un **factor de penalización α** para minimizar el tiempo
 
 ---
 
-## 🧠 Algoritmos implementados
+## Algoritmos implementados
 
-### 🔹 A* (A-star) adaptado a maximización
+### A* (A-star) adaptado a maximización
 Heurística de búsqueda informada que encuentra soluciones de alta calidad de forma eficiente.  
 La función de evaluación se redefine como:
 \[
@@ -63,7 +63,7 @@ f(n) = - (v_{acumulado} - \alpha \cdot transporte) + h(n)
 \]
 donde \( h(n) \) es una cota inferior (admisible).
 
-### 🔹 Branch & Bound
+### Branch & Bound
 Método exacto de búsqueda en profundidad con poda:
 - Calcula una **cota superior optimista** sobre el valor restante posible.
 - Poda ramas que no pueden superar la mejor solución actual.
@@ -71,7 +71,7 @@ Método exacto de búsqueda en profundidad con poda:
 
 ---
 
-## 🏗️ Estructura del repositorio
+## Estructura del repositorio
 ```bash
 │
 ├── proyecto_final_algoritmos.ipynb
